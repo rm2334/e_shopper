@@ -1,0 +1,47 @@
+/*
+Theme Name: 	E-shopper Wordpress
+Theme URI: 		http://demo.themeum.com/html/eshopper/
+Author: 		Tawhidul Islam
+Author URI: 	http://facebook.com/smtir
+Description: 	E-shopper Wordpress is the perfect theme for your next WooCommerce project. Designed by Themeum
+Version: 		1.0.1
+License: 		GNU General Public License v2 or later
+License URI: 	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: 	storefront
+Tags: 			black, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments
+Text Domain: e-shopper
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+E-shopper Wordpress is based on: 
+Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Woocommerce https://github.com/woothemes/woocommerce , (C) WooThemes
+*/
+
+/**
+*
+* Homepage Cart Item 
+*
+**/
+.cart-item {
+	border: 1px solid #f5f5f5;
+	vertical-align: middle;
+	padding: 0 25px 5px 10px !important;
+}
+.cart-item:hover {
+	border: 1px solid #FE980F;
+}
+span.product-count {
+	background: none repeat scroll 0 0 #FE980F;
+	color: #fff;
+	font-size: 10px;
+	padding: 0px 4px;
+	position: absolute;
+	right: -25px;
+	text-align: center;
+	top: -10px;
+	display: block;
+	width: 20px;
+	height: 20px;
+}
